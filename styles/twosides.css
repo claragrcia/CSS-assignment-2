@@ -27,7 +27,8 @@ body {
 
 
 
-a { color: #379CB2; }
+a { color: #379CB2;
+    text-decoration: none;}
 a:hover { color: #82E8FF; }
 
 
@@ -37,17 +38,15 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 14%;
-
+  height: 15%;
 
 }
 
 h1 {
   float: left;
-  padding-left: 4%;
-  margin-top: 15px;
-
-
+  padding-left: 2%;
+  margin-top: 10px;
+  font-size: 250%;
 }
 
 nav {
@@ -65,8 +64,7 @@ nav li {
   float: left;
   margin-left:10px;
   padding: 10px;
-
-
+  text-transform:uppercase;
 
 }
 
@@ -75,56 +73,61 @@ article {
   -webkit-box-sizing: border-box;
     -moz-box-sizing:border-box;
         box-sizing:border-box;
-    background-color:  #FFF;
-    width: 600px;
+    float:left;
+    width: 50%;
     color: #000;
-    padding: 20px 40px;
-    margin: 50px auto;
+    padding: 15px 20px;
+    padding-top: 55px;
+    padding-left: 15px;
 
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   padding-top: 60px;
+  font-size: 200%;
 }
 
 section > p {
-
   text-align: center;
+}
+
+section {
+  clear:both;
 
 }
 
 img {
   display:block;
   margin: auto;
-
 }
-
 
 div {
-
-
-
+  float: left;
+  margin: 10px;
+  margin-top: 5px;
+  padding-left: 15px;
 }
-
 
 
 
 #cougar {
-
     background-color: #B26219;
     padding: 10px;
-
+    padding-top: 20px;
+    overflow: auto;
+    width:100%;
+    margin-top: 45px;
 
 }
 
 
 #lion {
-
     background-color: #FFD5AE;
     padding: 10px;
-
-
+    padding-top: 15px;
+    overflow: auto;
+    width:100%;
 }
 
 
@@ -132,8 +135,9 @@ div {
 
     background-color: #FFBD82;
     padding: 10px;
-
-
+    padding-top: 15px;
+    overflow: auto;
+    width:100%;
 
 }
 
@@ -144,6 +148,7 @@ footer {
         box-sizing:border-box;
     width: 600px;
     margin: 20px auto;
+    font-size: 100%;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
